@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check that the page renders 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h1
+      className="ant-typography"
+      style={
+        Object {
+          "WebkitLineClamp": null,
+          "color": "white",
+          "fontWeight": "normal",
+          "marginBottom": 5,
+        }
+      }
+    >
+      We need your permission...
+    </h1>
+    <span
+      className="ant-typography"
+      style={
+        Object {
+          "WebkitLineClamp": null,
+          "color": "white",
+          "fontSize": 18,
+          "marginBottom": 20,
+        }
+      }
+    >
+      Allow DAT to view your Destiny characters.
+    </span>
+    <button
+      className="ant-btn ant-btn-primary ant-btn-lg"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "orange",
+          "color": "#353535",
+          "fontWeight": "bold",
+        }
+      }
+      type="button"
+    >
+      <span>
+        Authorise with Bungie.net
+      </span>
+    </button>
+  </header>
+</div>
+`;
