@@ -13,11 +13,14 @@ function App() {
         <Typography.Text style={styles.text}>
           Allow DAT to view your Destiny characters.
         </Typography.Text>
-        <Button type="primary" size="large" style={styles.button}>Authorise with Bungie.net</Button>
+        <Button href={authoriseLink} type="primary" size="large" style={styles.button}>Authorise with Bungie.net</Button>
       </header>
     </div>
   );
 }
+
+const authoriseLink = "https://www.bungie.net/en/OAuth/Authorize?client_id=" 
+  + process.env.REACT_APP_OAUTH_CLIENT_ID + "&response_type=code"
 
 const styles = {
   title: {color: "white", fontWeight: "normal", marginBottom: 5},
